@@ -1,4 +1,6 @@
-﻿namespace AttributeSamples.Domain
+﻿using System.Diagnostics;
+
+namespace AttributeSamples.Domain
 {
     public class  PersonPrinter
     {
@@ -10,10 +12,24 @@
         }
         public void Print()
         {
+            ShowDebugData();
+            ShowDeveloperName();
             PrintFullName();
             PrintAge();
         }
-        [Obsolete(message:"PrintAge() is removed",error:true)]
+        [Conditional("Abbas")]
+        private void ShowDeveloperName()
+        {
+            Console.WriteLine("Developer is Abbas");
+        }
+
+        [Conditional("DEBUG")]
+        private void ShowDebugData()
+        {
+            Console.WriteLine($"This application is compiled in debug mode."); 
+        }
+
+        //[Obsolete(message:"PrintAge() is removed",error:true)]
         public void PrintAge()
         {
             Console.WriteLine($"Age: {person.Age}");

@@ -12,6 +12,6 @@ printer.Print();
 
 Console.ReadLine();
 
-printer.PrintAge();
+//printer.PrintAge();
 
-Console.ReadLine();
+//Console.ReadLine();
