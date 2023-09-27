@@ -11,3 +11,7 @@ PersonPrinter printer = new(Abbas);
 printer.Print();
 
 Console.ReadLine();
+
+printer.PrintAge();
+
+Console.ReadLine();

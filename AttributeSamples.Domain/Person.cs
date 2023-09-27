@@ -3,7 +3,7 @@
 namespace AttributeSamples.Domain
 {
     [DebuggerDisplay("Person Name is {FirstName} and Age is {Age}")]
-    [DebuggerTypeProxy(typeof(PersonDebuggerTypeProxy))]
+    [DebuggerTypeProxy(typeof(PersonDebuggerTypeProxy ))]
     public class Person
     {
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]

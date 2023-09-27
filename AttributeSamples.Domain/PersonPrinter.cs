@@ -13,13 +13,13 @@
             PrintFullName();
             PrintAge();
         }
-
-        private void PrintAge()
+        [Obsolete(message:"PrintAge() is removed",error:true)]
+        public void PrintAge()
         {
             Console.WriteLine($"Age: {person.Age}");
         }
 
-        private void PrintFullName()
+        public void PrintFullName()
         {
             Console.WriteLine($"FullName : {person.FirstName}, {person.LastName}");
 
