@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.UI", "AttributeSamples.UI\AttributeSamples.UI.csproj", "{111A373C-3998-4FF5-AC5F-0CEE099236EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.Domain", "AttributeSamples.Domain\AttributeSamples.Domain.csproj", "{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{111A373C-3998-4FF5-AC5F-0CEE099236EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111A373C-3998-4FF5-AC5F-0CEE099236EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111A373C-3998-4FF5-AC5F-0CEE099236EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111A373C-3998-4FF5-AC5F-0CEE099236EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {580BF55C-C9C3-421F-8A01-AFDF1DE3F474}
+	EndGlobalSection
+EndGlobal

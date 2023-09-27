@@ -1,0 +1,11 @@
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\bin\Debug\net6.0\AttributeSamples.Domain.deps.json
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\bin\Debug\net6.0\AttributeSamples.Domain.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\bin\Debug\net6.0\AttributeSamples.Domain.pdb
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.AssemblyInfoInputs.cache
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.AssemblyInfo.cs
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.csproj.CoreCompileInputs.cache
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\refint\AttributeSamples.Domain.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.pdb
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\ref\AttributeSamples.Domain.dll
