@@ -16,3 +16,5 @@ D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\obj\Debug\net6.0\refint\Att
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\obj\Debug\net6.0\AttributeSamples.UI.pdb
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\obj\Debug\net6.0\AttributeSamples.UI.genruntimeconfig.cache
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\obj\Debug\net6.0\ref\AttributeSamples.UI.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\bin\Debug\net6.0\AttributeSamples.CustomAttributes.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.UI\bin\Debug\net6.0\AttributeSamples.CustomAttributes.pdb

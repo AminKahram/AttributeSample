@@ -9,3 +9,7 @@ D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\Attrib
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\refint\AttributeSamples.Domain.dll
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.pdb
 D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\ref\AttributeSamples.Domain.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\bin\Debug\net6.0\AttributeSamples.CustomAttributes.dll
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\bin\Debug\net6.0\AttributeSamples.CustomAttributes.pdb
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.csproj.AssemblyReference.cache
+D:\OromandT\2.1\AttributeSamples\AttributeSamples.Domain\obj\Debug\net6.0\AttributeSamples.Domain.csproj.CopyComplete

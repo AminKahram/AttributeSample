@@ -14,7 +14,15 @@
           "AttributeSamples.UI.dll": {}
         }
       },
+      "AttributeSamples.CustomAttributes/1.0.0": {
+        "runtime": {
+          "AttributeSamples.CustomAttributes.dll": {}
+        }
+      },
       "AttributeSamples.Domain/1.0.0": {
+        "dependencies": {
+          "AttributeSamples.CustomAttributes": "1.0.0"
+        },
         "runtime": {
           "AttributeSamples.Domain.dll": {}
         }
@@ -23,6 +31,11 @@
   },
   "libraries": {
     "AttributeSamples.UI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AttributeSamples.CustomAttributes/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

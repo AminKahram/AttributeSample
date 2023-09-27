@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34018.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.UI", "AttributeSamples.UI\AttributeSamples.UI.csproj", "{111A373C-3998-4FF5-AC5F-0CEE099236EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeSamples.UI", "AttributeSamples.UI\AttributeSamples.UI.csproj", "{111A373C-3998-4FF5-AC5F-0CEE099236EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.Domain", "AttributeSamples.Domain\AttributeSamples.Domain.csproj", "{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeSamples.Domain", "AttributeSamples.Domain\AttributeSamples.Domain.csproj", "{54F24841-33CC-4E68-9D9A-9E00CF7F35E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{50A8BE75-98DC-467C-B4CB-46145555C180}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{225F3EA3-873F-4184-94B9-79045098D911}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.Core.DomainTest", "AttributeSamples.Core.DomainTest\AttributeSamples.Core.DomainTest.csproj", "{9BC1A983-5323-466E-BEB4-59FAB00F53C9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeSamples.Core.DomainTest", "AttributeSamples.Core.DomainTest\AttributeSamples.Core.DomainTest.csproj", "{9BC1A983-5323-466E-BEB4-59FAB00F53C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.CustomAttributes", "AttributeSamples.CustomAttributes\AttributeSamples.CustomAttributes.csproj", "{6916A5F4-C09A-4023-8F55-18236BB740C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.ReflectionUI", "AttributeSamples.ReflectionUI\AttributeSamples.ReflectionUI.csproj", "{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{9BC1A983-5323-466E-BEB4-59FAB00F53C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BC1A983-5323-466E-BEB4-59FAB00F53C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BC1A983-5323-466E-BEB4-59FAB00F53C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6916A5F4-C09A-4023-8F55-18236BB740C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6916A5F4-C09A-4023-8F55-18236BB740C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6916A5F4-C09A-4023-8F55-18236BB740C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6916A5F4-C09A-4023-8F55-18236BB740C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 		{111A373C-3998-4FF5-AC5F-0CEE099236EB} = {225F3EA3-873F-4184-94B9-79045098D911}
 		{54F24841-33CC-4E68-9D9A-9E00CF7F35E0} = {225F3EA3-873F-4184-94B9-79045098D911}
 		{9BC1A983-5323-466E-BEB4-59FAB00F53C9} = {50A8BE75-98DC-467C-B4CB-46145555C180}
+		{6916A5F4-C09A-4023-8F55-18236BB740C1} = {225F3EA3-873F-4184-94B9-79045098D911}
+		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15} = {225F3EA3-873F-4184-94B9-79045098D911}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {580BF55C-C9C3-421F-8A01-AFDF1DE3F474}
