@@ -1,7 +1,9 @@
-﻿using System.Diagnostics;
+﻿using AttributeSamples.CustomAttributes;
+using System.Diagnostics;
 
 namespace AttributeSamples.Domain
 {
+    //[AutoScanForDependency]
     public class  PersonPrinter
     {
         private readonly Person person;

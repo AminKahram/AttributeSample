@@ -2,9 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "AttributeSamples.CustomAttributes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AttributeSamples.CustomAttributes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AttributeSamples.CustomAttributes.dll": {}
+        }
+      },
       "AttributeSamples.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "AttributeSamples.CustomAttributes": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/AttributeSamples.Domain.dll": {}
         },
@@ -15,6 +28,11 @@
     }
   },
   "libraries": {
+    "AttributeSamples.CustomAttributes/1.0.0": {
+      "type": "project",
+      "path": "../AttributeSamples.CustomAttributes/AttributeSamples.CustomAttributes.csproj",
+      "msbuildProject": "../AttributeSamples.CustomAttributes/AttributeSamples.CustomAttributes.csproj"
+    },
     "AttributeSamples.Domain/1.0.0": {
       "type": "project",
       "path": "../AttributeSamples.Domain/AttributeSamples.Domain.csproj",

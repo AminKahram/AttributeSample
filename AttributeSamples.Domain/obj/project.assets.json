@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "AttributeSamples.CustomAttributes/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AttributeSamples.CustomAttributes.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AttributeSamples.CustomAttributes.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AttributeSamples.CustomAttributes/1.0.0": {
+      "type": "project",
+      "path": "../AttributeSamples.CustomAttributes/AttributeSamples.CustomAttributes.csproj",
+      "msbuildProject": "../AttributeSamples.CustomAttributes/AttributeSamples.CustomAttributes.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "AttributeSamples.CustomAttributes >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Amin\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\OromandT\\2.1\\AttributeSamples\\AttributeSamples.CustomAttributes\\AttributeSamples.CustomAttributes.csproj": {
+              "projectPath": "D:\\OromandT\\2.1\\AttributeSamples\\AttributeSamples.CustomAttributes\\AttributeSamples.CustomAttributes.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
