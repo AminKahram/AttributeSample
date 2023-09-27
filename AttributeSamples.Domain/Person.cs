@@ -1,35 +1,15 @@
-﻿namespace AttributeSamples.Domain
+﻿using System.Diagnostics;
+
+namespace AttributeSamples.Domain
 {
+    [DebuggerDisplay("Person Name is {FirstName} and Age is {Age}")]
+    [DebuggerTypeProxy(typeof(PersonDebuggerTypeProxy))]
     public class Person
     {
+        [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public int Age { get; set; }
 
-    }
-    public class  PersonPrinter
-    {
-        private readonly Person person;
-
-        public PersonPrinter(Person person)
-        {
-            this.person = person;
-        }
-        public void Print()
-        {
-            PrintFullName();
-            PrintAge();
-        }
-
-        private void PrintAge()
-        {
-            Console.WriteLine($"Age: {person.Age}");
-        }
-
-        private void PrintFullName()
-        {
-            Console.WriteLine($"FullName : {person.FirstName}, {person.LastName}");
-
-        }
     }
 }
