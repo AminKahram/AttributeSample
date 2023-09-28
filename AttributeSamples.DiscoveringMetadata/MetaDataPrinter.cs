@@ -1,6 +1,8 @@
-﻿using System;
+﻿using AttributeSamples.CustomAttributes;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,6 +22,7 @@ public class MetaDataPrinter
         PrintMethodInfo();
         PrintPropertyInfo();
         printFieldInfo();
+        PrintCodeChangeHistory();
     }
 
     private void printFieldInfo()
@@ -60,6 +63,16 @@ public class MetaDataPrinter
 
     }
 
+    private void PrintCodeChangeHistory()
+    {
+        Console.WriteLine($"***************** Change history of  {type.Name} *******************");
+        var attributes = type.GetCustomAttributes(typeof(CodeChangeHistoryAttribute));
+        foreach (CodeChangeHistoryAttribute attribute in attributes )
+        {
+            Console.WriteLine($"Change date  time : {attribute.ChangeDateTime} \t\t Is bug fixed: {attribute.IsBug} \t\t {attribute.Description}");
+        }
+
+    }
     private void PrintMainInfo()
     {
         Console.WriteLine($"***************** Information of type {type.Name} *******************");
