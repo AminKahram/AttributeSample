@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AttributeSamples.Discoverin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.LoadAssembly", "AttributeSamples.LoadAssembly\AttributeSamples.LoadAssembly.csproj", "{D9A8ED48-3C2E-455C-8AE0-B04D14C41A13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributeSamples.LateBinding", "AttributeSamples.LateBinding\AttributeSamples.LateBinding.csproj", "{E0711C19-0FE5-4096-96A5-76DF81835EA3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,10 @@ Global
 		{D9A8ED48-3C2E-455C-8AE0-B04D14C41A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9A8ED48-3C2E-455C-8AE0-B04D14C41A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9A8ED48-3C2E-455C-8AE0-B04D14C41A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0711C19-0FE5-4096-96A5-76DF81835EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0711C19-0FE5-4096-96A5-76DF81835EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0711C19-0FE5-4096-96A5-76DF81835EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0711C19-0FE5-4096-96A5-76DF81835EA3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{CF3F3CBC-5A73-4E05-8C0A-036A49C35C15} = {225F3EA3-873F-4184-94B9-79045098D911}
 		{D8837116-8D8D-4809-B5E3-8235C0A42DC7} = {225F3EA3-873F-4184-94B9-79045098D911}
 		{D9A8ED48-3C2E-455C-8AE0-B04D14C41A13} = {225F3EA3-873F-4184-94B9-79045098D911}
+		{E0711C19-0FE5-4096-96A5-76DF81835EA3} = {225F3EA3-873F-4184-94B9-79045098D911}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {580BF55C-C9C3-421F-8A01-AFDF1DE3F474}

@@ -14,12 +14,22 @@ namespace AttributeSamples.Domain
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         [Required]
         [StringLength(100)]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = "Abbas";
         [CodeChangeHistory("Abbas Abbassi", IsBug:true, Description = "This property makes bugs in code")]
 
-        public string LastName { get; set; }
+        public string LastName { get; set; } = "Abbasi";
         public int Age { get; set; }
         [NonSerialized]
         private int Count;
+
+        public void Print()
+        {
+            Console.WriteLine($"{FirstName} {LastName}");
+        }
+
+        public  void InputPrinter(string input)
+        {
+            Console.WriteLine(input);
+        }
     }
 }
